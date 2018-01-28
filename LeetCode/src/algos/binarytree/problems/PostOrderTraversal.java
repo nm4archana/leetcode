@@ -1,6 +1,5 @@
 package algos.binarytree.problems;
 
-import java.util.Stack;
 
 public class PostOrderTraversal 
 {
