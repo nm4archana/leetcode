@@ -25,6 +25,11 @@ public class LevelOrderTraversal
 	
 	public ArrayList<ArrayList<Integer>> levelOrderTraversal(BinaryTreeNode root) 
 	{
+		if(root == null) 
+		{
+		  return null;	
+		}
+		
 		Queue<BinaryTreeNode> queue = new LinkedList<BinaryTreeNode>();
 		queue.add(root);
 		
@@ -55,9 +60,7 @@ public class LevelOrderTraversal
 				count = queue.size();
 				res.add(tempRes);
 				tempRes = new ArrayList<Integer>();
-			}
-		
-			
+			}		
 		}
 		
 		return res;
