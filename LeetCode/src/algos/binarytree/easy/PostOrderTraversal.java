@@ -1,4 +1,4 @@
-package algos.binarytree.problems;
+package algos.binarytree.easy;
 
 
 public class PostOrderTraversal 
@@ -33,7 +33,7 @@ public class PostOrderTraversal
 	//Iterative Implementation	
 	 public void postorderTraversalI(BinaryTreeNode root) 
 	  {
-	      
+	      //Yet to implement
 	  }
 	 
 	 

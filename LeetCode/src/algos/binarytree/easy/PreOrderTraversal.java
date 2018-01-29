@@ -1,4 +1,4 @@
-package algos.binarytree.problems;
+package algos.binarytree.easy;
 
 import java.util.Stack;
 
